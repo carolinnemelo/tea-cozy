@@ -1,0 +1,156 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+article {
+    border: solid 1px green;
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* nav section */
+header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px seashell;
+    align-items: center;
+        
+}
+
+nav {
+    display: flex;
+
+}
+
+nav h4 {
+    padding: 0 10px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+img.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* banner section */
+div.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Resources/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    background-color: black;
+    justify-content: center;
+}
+
+div.text-banner {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+/* Tea of the month section */
+figcaption {
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 4px;
+    
+}
+
+div.tea-month {
+    border: solid 1px salmon;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img-tea {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+div.sec-row {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.img-tea img{
+    width: 300px;
+    height: 200px;
+}
+
+.question-tea {
+    text-align: center;
+}
+
+/* Locations section */
+.container p{
+    line-height: 60px;
+} 
+
+.locations h2{
+    vertical-align: text-bottom;
+    line-height: 50px;
+}
+
+.locations {
+    background-image: url(../Resources/img-locations-background.jpg);
+    width: 1200px;
+    height: 570px;
+
+}
+
+.locations-tittle {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: fit-content;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    align-items: flex-end;
+
+}
+
+.left, .right, .middle {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+/* footer section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200px;
+}
+
+footer {
+    border: solid 1px red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
