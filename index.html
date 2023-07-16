@@ -7,79 +7,82 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    
-    <header>
+    <header class="flex">
         <img class="logo" src="Resources/img-tea-cozy-logo.png" alt="Tea cozy logo">
-        <nav>
-            <h4>Mission</h4>
-            <h4>Featured Tea</h4>
-            <h4>Locations</h4>
+        <nav class="flex">
+            <a href="#mission">Mission</a>
+            <a href="#featured-tea">Featured Tea</a>
+            <a href="#locations">Locations</a>
         </nav>
     </header>
-    <article>
-        <div class="banner">
-            <div class="text-banner">
+    <main class="flex">
+        <div id="mission" class="flex">
+            <div class="text-mission">
                 <h2>Our Mission</h2>
                 <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair trade, Organic Tea</h4>
             </div>
         </div>
-        <div class="tea-month">
-            <div class="img-tea">
-                <div class="one">
+        <div id="featured-tea">
+            <div class="text-tea">
+                <h2>Tea of the Month</h2>
+                <h4>What's Steeping at The Tea Cozy?</h4>
+            </div>
+            <div class="img-tea flex">
+                <div>
                     <img src="Resources/img-berryblitz.jpg">
                     <figcaption><h4>Fall berry blitz tea</h4></figcaption>
                 </div>
-                <div class="two">
+                <div>
                     <img src="Resources/img-spiced-rum.jpg">
                     <figcaption><h4>spiced rum tea</h4></figcaption>
                 </div>
-                <div class="three">
+                <div>
                     <img src="Resources/img-donut.jpg">
                     <figcaption><h4>seasonal donuts</h4></figcaption>
                 </div>
-                <div class="sec-row">
-                    <div class="four">
+                <div class="sec-row flex">
+                    <div>
                         <img src="Resources/img-myrtle-ave.jpg">
                         <figcaption><h4>myrtle ave tea</h4></figcaption>
                     </div>
-                    <div class="five">
+                    <div>
                         <img src="Resources/img-bedford-bizarre.jpg">
                         <figcaption><h4>bedford bizarre tea</h4></figcaption>
                     </div>
                 </div>
             </div>
-            <div class="question-tea">
-                <h2>Tea of the Month</h2>
-                <h4>What's Steeping at The Tea Cozy?</h4>
-            </div>
         </div>
-        <div class="locations">
-            <div class="locations-tittle">
-                <h2>Locations</h2>
-            </div>
-            <div class="container">
-                <div class="left">
+        <div id="locations">
+            <h2>Locations</h2>
+            <div class=" container flex">
+                <div class="cards flex">
                     <h3>Downtown</h3>
-                    <p>384 West 4th St<br>Suit 108<br>Portland, Maine</p>
+                    <p>384 West 4th St</p>
+                    <p>Suit 108</p>
+                    <p>Portland, Maine</p>
                 </div>
-                <div class="middle">
+                <div class="cards flex">
                     <h3>East Bayside</h3>
-                    <p>3433 Phisherman's Avenue<br>(Northwest Corner)<br>Portland, Maine</p>
+                    <p>3433 Phisherman's Avenue</p>
+                    <p>(Northwest Corner)</p>
+                    <p>Portland, Maine</p>
                 </div>
-                <div class="right">
+                <div class="cards flex">
                     <h3>Oakdale</h3>
-                    <p>515 Crescent Avenue<br>Second floor<br>Portland, Maine</p>
+                    <p>515 Crescent Avenue</p>
+                    <p>Second floor</p>
+                    <p>Portland, Maine</p>
                 </div>
             </div>
         </div>
-    </article>
+    </main>
     <footer>
-        <div class="footer">
+        <div class="contact flex">
             <h2>The Tea Cozy</h2>
             <h5>contact@theteacozy.com</h5>
             <h5>917-55-8904</h5>
         </div>
-        <p>copyright The Tea Cozy 2017</p>
+        <h5>copyright The Tea Cozy 2017</h5>
     </footer>
 </body>
 </html>
